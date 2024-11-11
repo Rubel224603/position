@@ -1,0 +1,110 @@
+.header{
+    background: navy;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color:#fff;
+}
+
+.menu{
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.left{
+    
+    margin-top:10px;
+    background: rgb(206, 119, 38);
+    
+    
+    
+}
+.left p{
+    padding: 10px;
+}
+.right{
+background-color: yellow;
+color:black;
+margin-top: 10px;;
+}
+.right p{
+    padding: 10px;
+}
+.right h1{
+    padding: 10px;
+}
+
+.flex_container{
+    
+    margin-bottom:20px;
+    margin:0 auto;
+    width:100%;
+    background: yellowgreen;
+}
+.flex_container h1{
+    color:black;
+    margin:0;
+}
+.flex_container .title{
+    background: red;
+    text-align:center;
+    margin-bottom: 20px;
+    padding:20px;
+}
+.flex_item{
+    background-color: navy;
+    padding:10px;
+    color:white;
+    margin:1%;
+   width:28%; 
+   
+}.flex_item a{
+    display: inline-block;
+}
+.flex_main_area{
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-wrap: wrap;
+}
+
+
+.grid{
+    display: grid;
+    gap:20px;
+    justify-content: space-evenly;
+    grid-template-columns: 100px 100px 1fr 1fr 200px 2fr 1fr;
+}
+
+.gridItem{
+    background: red;
+    color:white;
+    flex-basis: 20%;
+    padding: 10px;
+  
+}
+.onlyImage{
+    display: flex;
+   background: yellow;
+    justify-content: center;
+}
+.onlyImage img{
+    border-radius:50%;
+}
+.ImageSection{
+    display: flex;
+    gap:20px;
+    background:green;
+    justify-content: space-between;
+}
+.img1{
+    padding:20px;
+   
+}
+.img1 img{
+    border-radius:50%;
+}
+
